@@ -5,12 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="stylesheet" href="styles/reset.css">
+
+
   <title>Document</title>
 </head>
 
 <body>
   <section>
-    <div id="container">
+    <!--Fundo-->
+    <div id="container" class="estilo-1">
+      <!--header-->
       <div id="container-header">
         <div id="container-image-header">
           <img src="src/img/profile_gabriel.jpg" alt="perfil_image" id="image-header" >
@@ -19,10 +23,43 @@
           <h1 id="nome-tittle">Gabriel Victor</h1>
           <p id="desc-tittle">Developer and Programmer</p>
         </div>
+        <div id="button-header">
+          <button type="button" id="botao"  onclick="mudarcores()">clicar</button>
+        </div>
+      </div>
+      <!--skills container-->
+      <div id="container-skill">
+        <div id="elementos-skill">
+
+            <i class="fa-brands fa-python  fa-2xl"></i>
+            <i class="fa-brands fa-js  fa-2xl" ></i>
+            <i class="fa-brands fa-react fa-2xl" ></i>
+            <i class="fa-brands fa-java fa-2xl" ></i>
+            <i class="fa-brands fa-html5 fa-2xl" ></i>
+            <i class="fa-brands fa-css3-alt fa-2xl"></i>
+            <i class="fa-brands fa-bootstrap fa-2xl"></i>
+        </div>
+      </div>
+
+      <!--Container pages-->
+      <div id="container-pages">
+          <div id="container-blog">
+            <a href="#">
+              <h1>Blog</h1>
+              <i class="fa-solid fa-blog fa-2xl"></i>
+            </a>
+          </div>
+          <div id="containers-links">
+            <div>
+
+            </div>
+          </div>
+
       </div>
     </div>
   </section>
 </body>
 
 <script src="script/index.js"></script>
+<script src="https://kit.fontawesome.com/10fee8d7ba.js" crossorigin="anonymous"></script>
 </html>
