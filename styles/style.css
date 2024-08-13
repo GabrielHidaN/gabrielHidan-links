@@ -14,7 +14,7 @@ section{
 
 }
 .estilo-2{
-  background-color: rgba(209, 207, 207, 0.856);
+  background-color: rgba(255, 253, 253, 0.856);
   width: 580px;
   height: 100vh;
 
@@ -99,6 +99,8 @@ section{
 }
 
 #container-blog a{
+  text-decoration: none;
+  color: #141414;
   cursor: pointer;
   background-color: greenyellow;
   margin: 20px;
@@ -118,11 +120,6 @@ section{
   -o-border-radius: 20px;
 }
 
-a{
-  text-decoration: none;
-  color: #141414;
-
-}
 #container-blog h1 {
   font-family: "Platypi", serif;
   font-size: x-large;
@@ -132,5 +129,42 @@ a{
 
 #container-blog a:hover{
   color: rgb(255, 255, 255);
-  background-color: rgba(173, 255, 47 , 0.7);
+  background-color: #141414;
+  box-shadow: rgba(173, 255, 47, 0.82) 0px 2px 0px 0px, rgba(173, 255, 47, 0.52) 0px 2px 16px 0px;
+}
+
+
+#container-portifolio a{
+  text-decoration: none;
+  color: #141414;
+  cursor: pointer;
+  background-color: greenyellow;
+  margin: 20px;
+  width: 320px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: rgba(83, 83, 83, 0.82) 0px 1px 3px, rgba(184, 164, 164, 0.54) 0px 1px 2px;
+
+
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#container-portifolio h1 {
+  font-family: "Platypi", serif;
+  font-size: large;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+#container-portifolio a:hover{
+  color: white;
+  background-color: #141414;
+  box-shadow: rgba(173, 255, 47, 0.82) 0px 2px 0px 0px, rgba(173, 255, 47, 0.52) 0px 2px 16px 0px;
 }
