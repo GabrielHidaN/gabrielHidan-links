@@ -3,7 +3,7 @@ var ativo_popUp = false
 const div_popUp  = document.getElementById('#')
 
 
-// Fuction mudar de tema 
+// Fuction mudar de tema
 
 function mudarcores(){
   if (prox_cor == 'dark'){
@@ -36,3 +36,4 @@ const fechar_popUp = ()=> {
     div_popUp.className('remove')
   }
   }
+
