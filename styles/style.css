@@ -177,12 +177,12 @@ section{
   flex-direction: column;
   gap: 30px;
   align-items: center;
-  padding-left: 60px;
+
 }
 
 #redes-linha1 , #redes-linha2{
   display: flex;
-  gap: 30px;
+  gap: 50px;
 }
 
 .instagram , .linkedin , .github , .tiktok{
@@ -192,7 +192,7 @@ section{
   text-decoration: none;
   background-color: #c3c3c3a8;
   height: 100px;
-  width: 110px;
+  width: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -204,6 +204,79 @@ section{
 }
 
 .instagram:hover , .linkedin:hover , .github:hover , .tiktok:hover{
+  background-color: #141414;
+  box-shadow: rgba(173, 255, 47, 0.82) 0px 2px 0px 0px, rgba(173, 255, 47, 0.52) 0px 2px 16px 0px;
+}
+
+
+
+#container-library a{
+  text-decoration: none;
+  color: #141414;
+  cursor: pointer;
+  background-color: greenyellow;
+  margin: 20px;
+  width: 180px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: rgba(83, 83, 83, 0.82) 0px 1px 3px, rgba(184, 164, 164, 0.54) 0px 1px 2px;
+
+
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#container-library h1 {
+  font-family: "Platypi", serif;
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+#container-library a:hover{
+  color: rgb(255, 255, 255);
+  background-color: #141414;
+  box-shadow: rgba(173, 255, 47, 0.82) 0px 2px 0px 0px, rgba(173, 255, 47, 0.52) 0px 2px 16px 0px;
+}
+
+
+#container-playlist a{
+  text-decoration: none;
+  color: #141414;
+  cursor: pointer;
+  background-color: greenyellow;
+  margin: 20px;
+  width: 180px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: rgba(83, 83, 83, 0.82) 0px 1px 3px, rgba(184, 164, 164, 0.54) 0px 1px 2px;
+
+
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#container-playlist h1 {
+  font-family: "Platypi", serif;
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+#container-playlist a:hover{
+  color: rgb(255, 255, 255);
   background-color: #141414;
   box-shadow: rgba(173, 255, 47, 0.82) 0px 2px 0px 0px, rgba(173, 255, 47, 0.52) 0px 2px 16px 0px;
 }
