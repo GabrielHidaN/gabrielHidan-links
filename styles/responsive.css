@@ -1,0 +1,64 @@
+@media screen and (max-width: 570px) {
+  #container{
+    width: 390px;
+  }
+  #nome-tittle {
+    font-size: large;
+  }
+  #image-header{
+    width: 50px;
+    height: 50px;
+  }
+  #button-theme{
+    width: 10px;
+  }
+  #container-left{
+    width: 150px;
+  }
+  #container-blog a{
+    height: 70px;
+    width: 120px;
+    gap: 5px;
+  }
+  #container-blog h1{
+    font-size: large;
+  }
+
+  #container-library a{
+    width: 120px;
+    height: 70px;
+    gap: 5px;
+  }
+  #container-library h1{
+    font-size: medium;
+  }
+
+  #container-playlist a{
+    width: 120px;
+    height: 70px;
+    gap: 5px;
+  }
+  #container-playlist h1{
+    font-size: medium;
+  }
+
+  #container-portifolio a{
+    width: 190px;
+  }
+  #container-pages{
+    gap: 0px;
+  }
+  #redes-linha1{
+    width: 190px;
+    gap: 10px;
+
+  }
+  #redes-linha2{
+    width: 190px;
+    gap: 10px;
+  }
+  .instagram , .linkedin , .github , .tiktok{
+    height: 70px;
+  }
+}
+
